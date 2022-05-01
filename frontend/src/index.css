@@ -1,0 +1,120 @@
+/* 
+--- 01 TYPOGRAPHY SYSTGEM
+
+    - Font sizes (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+    - Font Weights
+      Default: 400
+      Medium: 500
+      Semi-bold: 600
+      Bold: 700
+
+      Letter Sapcing
+        -0.5px
+        0.75px
+
+    - Line Heights
+      Default: 1
+      Small: 1.05
+      Medium: 1.2
+      Paragraph default: 1.6
+      
+
+
+--- 02 COLORS
+    Primary:
+    Tints: 
+    Shades:
+    Accents:
+    Greys:
+
+
+--- 05 SHADOWS
+
+--- 06 Border-RADIUS
+      Default: 9px
+
+--- 07 WHITESPACE
+        SPACING SYSTEM (px)
+          2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /*Percentage of user's browser font-size setting*/
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito", sans-serif !important;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  z-index: 1;
+}
+
+/**********************/
+/* GENERAL REUSABLE COMPONENTS */
+/**********************/
+.btn {
+  padding: 1rem 2rem;
+  background: linear-gradient(140deg, #0d6ddf, #001ec1 80%);
+  color: #fff;
+  border-radius: 1px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.btn-small {
+  width: 40px;
+  height: 40px;
+  justify-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  border-radius: 5px;
+  height: 4px;
+  margin: 0;
+  padding: 0;
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #aaafb4;
+  border-radius: 5px;
+  height: 50px;
+  min-height: 50px;
+}
+
+.not-found {
+  color: #727272;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 100px 0;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.grid-span {
+  grid-column: 1 / -1;
+}

@@ -1,0 +1,397 @@
+.user-proile-section {
+  width: 1100px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px 0px #d8dce2;
+  padding: 3% 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-header {
+  column-gap: 5%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1080px;
+  width: 100%;
+}
+
+.user-image-container {
+  border-radius: 4px;
+  max-width: 240px;
+  width: 30%;
+}
+
+.user-image-container img {
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.user-personal-details {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  row-gap: 10px;
+  width: 65%;
+  color: #727272;
+}
+
+.user-contact {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.user-name {
+  color: #333;
+  font-size: 3.2rem;
+  font-weight: 700;
+  position: relative;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+
+.user-name span {
+  color: #ffb100;
+  font-size: 1.4rem;
+  font-weight: 700;
+  left: 105%;
+  letter-spacing: 0.5px;
+  position: absolute;
+  top: 0;
+}
+
+.user-contact p {
+  align-items: center;
+  column-gap: 8px;
+  display: flex;
+  font-weight: 600;
+  flex-direction: row;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.user-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.user-bio {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.user-email {
+  align-items: center;
+  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.user-email a:link,
+a:visited {
+  color: #727272;
+  align-items: baseline;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  column-gap: 8px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 4px 10px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.user-socials {
+  column-gap: 14px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  position: relative;
+  width: fit-content;
+}
+
+.user-profile-actions {
+  align-self: center;
+  column-gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.user-profile-details {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.user-profile-details span {
+  background-color: #e9e9e9;
+  flex: auto;
+  height: 1px;
+}
+
+.user-profile-details p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin: 0 15px;
+  opacity: 0.98;
+  text-align: center;
+  color: #333;
+}
+
+.user-skills-section,
+.user-projects-section,
+.user-certificates-section,
+.user-prefered-locations {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  row-gap: 12px;
+  width: 100%;
+}
+
+.user-skills-section h2,
+.user-projects-section h2,
+.user-certificates-section h2,
+.user-prefered-locations h2 {
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.user-skills-section p,
+.projects-section-info,
+.user-certificates-section p {
+  color: #727272;
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+  width: 400px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.user-skills {
+  column-gap: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 70%;
+  row-gap: 10px;
+}
+
+.user-skill {
+  border: 1px solid #0f7ce51a;
+  border-radius: 4px;
+  color: #0d6ddf;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  text-transform: capitalize;
+}
+
+.user-projects {
+  column-gap: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.user-project {
+  border-radius: 4px;
+  box-shadow: 0px 1px 6px 0px #d8dce2;
+  height: 200px;
+  position: relative;
+  width: 200px;
+}
+
+.user-project-info {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  row-gap: 10px;
+  width: 100%;
+}
+
+.user-project-info img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 60%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.project-name {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 10px;
+  text-transform: capitalize;
+}
+
+.project-skills {
+  column-gap: 6px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  row-gap: 6px;
+}
+
+.project-skills p {
+  align-items: center;
+  background-color: #0f7ce51a;
+  border-radius: 2px;
+  color: #0d6ddf;
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  font-weight: 500;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  padding: 3px;
+  text-transform: capitalize;
+}
+
+.user-certificates {
+  column-gap: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.user-certificates img {
+  background: #fff;
+  border-radius: 4px;
+  height: 160px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.user-locations {
+  column-gap: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  max-width: 70%;
+  row-gap: 10px;
+}
+
+.user-location {
+  background-color: #0f7ce51a;
+  border-radius: 4px;
+  color: #0d6ddf;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 6px 12px;
+  text-transform: capitalize;
+}
+
+.experience-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  padding: 1rem 4rem;
+}
+
+.experience-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-card .main-content {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.main-content .left-part {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.experience-card .main-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience-card .main-actions div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.work-position {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #0d6ddf;
+}
+
+.work-company {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.work-description {
+  font-size: 1.2rem;
+  width: 300px;
+  text-transform: none;
+}
+
+.main-actions p {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.btn-small,
+.btn-xs {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.btn-xs {
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #000;
+}
+
+.btn-primary {
+  background-color: #e6ebf6;
+}
+
+.btn-danger {
+  background-color: #ffd9d9;
+  color: #e94131;
+}

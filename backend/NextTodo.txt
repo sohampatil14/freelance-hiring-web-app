@@ -1,0 +1,52 @@
+********Done Till now********
+
+  Job Hunter Side
+    Signup,Login Job Hunter
+    Forget/Reset Password
+    Update Me
+    Get all
+    Get Me
+    Get A
+
+  Recruiter Side
+    Signup,Login Recruiter
+    Forget/Reset Password
+    Update Me
+    Get all
+    Get Me
+    Get A
+
+  Collections
+    Both Recruiter and Job Hunter Side
+      Add
+      Get My
+      Remove
+
+  Filteration Pagination Searching Done for Projects and Users
+
+********Things remaining********
+
+  Job Hunter Side
+    Update user certifications
+
+  Recruiter Hunter Side
+    Nothing left 
+
+
+*******New*******
+Things left
+  Sort the users based on skills
+  Updation part of users ( photo and certificates)  
+  Logout Button redirect to /signup and call the logout api too
+
+
+
+
+Add Experience
+ - Add dates
+ - Add Delete and Update button in add projects
+
+ Final Things Left
+ - Recruiter Profile Setup
+ - Notifications
+ - Existing Profile Update for Recruiter and JobHunter

@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Unify Technologies",
+    "email": "unify@gmail.com",
+    "description": "Unify is a pioneer in developing technology solutions towards imparting greater value and creating collaboration amongst global businesses. Unify leads the way in changing the conventional wisdom to assure greater returns on investments made.Unify helps you focus on your business while taking care of your software needs with a global strategy to transform your company. Unify has the world-class experience and expertise that your enterprise needs to accommodate the most pragmatic and cost-advantageous solutions with measurable success, growth, and profits.",
+    "password": "test1234"
+  },
+  {
+    "name": "Intella Education Private Limited",
+    "email": "unify@gmail.com",
+    "description": "Education is the primary need and right of every individual mind, and at Intella Education, we thrive to deliver the best available in the industry to make you future-ready. Intella Education is the IT training institute focused on the skill development of individual minds. Currently, we are associating with schools to deliver our classroom programs which include robotics, web development, augmented reality, app development, etc. for students ranging from classes between 5th to 12th.",
+    "password": "test1234"
+  },
+  {
+    "name": "Intella Education Private Limited",
+    "email": "intella@gmail.com",
+    "website": "http://www.intellaeducation.com/",
+    "description": "Education is the primary need and right of every individual mind, and at Intella Education, we thrive to deliver the best available in the industry to make you future-ready. Intella Education is the IT training institute focused on the skill development of individual minds. Currently, we are associating with schools to deliver our classroom programs which include robotics, web development, augmented reality, app development, etc. for students ranging from classes between 5th to 12th.",
+    "password": "test1234"
+  },
+  {
+    "name": "ByProduct Ventures LLP",
+    "email": "ventures@gmail.com",
+    "description": "ByProduct Ventures LLP aims to provide good value content in niches like entertainment and technology. We are focused on providing good and valuable content to our readers, which is why we are looking for active and hardworking interns for our organization.",
+    "password": "test1234"
+  },
+  {
+    "name": "De9to (VYK Healthcare Private Limited)",
+    "email": "deto@gmail.com",
+    "description": "De9to (VYK Healthcare Private Limited) is a health-tech startup in the dental space, aiming to digitalize and raise the bar of dentistry by enhancing dentist-patient relationships via SaaS (software-as-a-service) and PaaS (platform-as-a-service). Patients can simply select the dentist which will be onboarded on the De9to platform, avail services, and get access to EMR and EHR prescriptions directly on mail/WhatsApp.",
+    "password": "test1234"
+  },
+  {
+    "name": "Technofront Solution",
+    "email": "Technofront@gmail.com",
+    "description": "Technofront Solution is an Indian company that provides business consulting, information technology and outsourcing services. It has its headquarters in Valsad & Pune",
+    "password": "test1234"
+  },
+  {
+    "name": "OyeLabs",
+    "email": "oye@gmail.com",
+    "description": "We consider ourselves as a growth engine to startups and enterprises. We work in blockchain, IoT, machine learning/artificial intelligence, mobile apps, and web apps.",
+    "password": "test1234"
+  }
+]
